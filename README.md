@@ -3,7 +3,7 @@
 ### Get
 
 ```
-go get github.com/txthinking/php-multipart-form-data-leak
+$ go get github.com/txthinking/php-multipart-form-data-leak
 ```
 
 OR
