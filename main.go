@@ -87,7 +87,6 @@ func Send(url string)(err error){
     var client *http.Client = &http.Client{Transport: tr}
     var r *http.Request
     r, err = http.NewRequest("POST", url, br)
-    fmt.Println(err)
     if err != nil{
         return
     }
